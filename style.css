@@ -1,0 +1,553 @@
+body
+{
+  margin: 0;
+background-color: pink;
+}
+#logojpg
+{
+float:left;
+border-radius: 0 100px 100px 0;
+}
+h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+font-family: fantasy;
+}
+.colors
+{
+font-family: cursive;
+color: brown;
+}
+.nb a:hover{
+  background-color: #106;
+  color: burlywood;
+}
+.nb .btn:hover{
+  background-color: #106;
+  color: burlywood;
+}
+.nb {
+  overflow: hidden;
+  background-color: #333;
+}
+.nb a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+.nb-right {
+  float: right;
+}
+.nb2 {
+  overflow: hidden;
+  background-color: whitesmoke;
+  height:160px;
+}
+.nb .btn { 
+        cursor: pointer; 
+        float: left;
+        border: none;
+        border: 1 px solid transparent;
+        background-color: transparent; 
+         padding: 14px 16px;
+        color: white; 
+        font-size: 18px; 
+
+    } 
+    .active
+    {
+    background-color: sandybrown;
+    }
+      .active1
+    {
+    background-color: #106;
+    }
+.modal {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(1.5);
+      
+    }
+    .modal2 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(1.5);
+      
+    }
+    .modal-popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: cornflowerblue;
+        padding: 4rem 1.5rem;
+        width: 21rem;
+        border-radius: 2.5rem;
+        border: 1px solid black;
+    }
+    .modal-popup-content2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: cornflowerblue;
+        padding: 1rem 1.5rem;
+        width: 21rem;
+        border-radius: 2.5rem;
+        border: 1px solid black;
+    }
+    .show-modal {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.0);
+        transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
+    .close{
+        float: left;
+        cursor: pointer;
+        font-weight: bold;
+          font-size: 14px;
+    }
+    .close:hover {
+        background-color: darkgray;
+    }
+      .close2{
+        float: left;
+        cursor: pointer;
+        font-weight: bold;
+          font-size: 14px;
+    }
+    .close2:hover {
+        background-color: darkgray;
+    }
+    .account{
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .account:hover{
+    background-color: darkgray;
+    }
+    .search
+    {
+    float: right;
+    }
+    .search button{
+      background-color: darkcyan;
+    }
+.search input
+{
+width: 220px;
+height: 20px;
+border : 3px solid darkcyan;
+}
+.nb3 {
+  overflow: hidden;
+  background-color: chocolate;
+  height: 63.4px;
+}
+.nb3 a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 34px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nb3 a:hover{
+  color: brown;
+}
+.table{
+    background-color: grey;
+  border-radius: 26px;
+  border: 5px solid darkgoldenrod;
+  padding: 30px; 
+  width: 200px;
+  height: 200px;  
+    }
+    .box
+    {
+      position: absolute;
+    width: 33%;
+    }
+  .slides 
+  {
+    display: none;
+    }
+.slides img
+ {
+  vertical-align: middle;
+  height: 620px;
+      border-radius: 100px 0 100px 0;
+      border: 3px solid black;
+  }
+  .slideshow{
+  max-width: 1300px;
+  margin: auto;
+   border-radius: 30px;
+}
+.text {
+  color: brown;
+    background-color: lightgreen;
+  font-size: 20px;
+  font-family: cursive;
+  position: absolute;
+   padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 620px;
+ left: 900px;
+ right: 60px;
+ border-radius: 40px 0 40px 0;
+ border: 2px solid black;
+}
+.numbertext {
+  color: black;
+  position: absolute;
+  background-color: coral;
+  width: 30px;
+  padding: 8px 12px;
+  float: right;
+  border: 1px solid black;
+  text-align:center;
+  font-size: 12px;
+  top: 290px;
+right: 120px;
+}
+
+ .showable-banner
+  {
+  width: 100%;
+  height: 500px;
+  border: 5px solid black;
+  }
+  .banner1
+  {
+  width: 33%;
+  height: 500px;
+
+  }
+    .banner2
+  {
+  width: 33%;
+  height: 500px;
+
+  }
+  .banner3
+  {
+  width: 33%;
+  height: 500px;
+  }
+.shopbutton
+{
+width: 180px;
+height: 80px;
+background-color: chocolate;
+color:black;
+border-radius: 30px;
+border: 1px solid black;
+font-size: 18px;
+font-family: cursive;
+text-align:center;
+}
+.shopbutton:hover
+{
+background-color: darkseagreen;
+font-size: 19px;
+}
+.adver
+{
+width: 100%;
+height: 669px;
+border: 3px solid black;
+}
+.texty
+{
+width: 400px;
+height: 140px;
+font-family: cursive;
+font-size: 15px;
+color: brown;
+background-color: khaki;
+text-align: center;
+position: absolute;
+padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+top: 700px;
+right: 40px;
+border: 2px solid black;
+border-radius: 40px 0 40px 0;
+}
+.menwatches
+{
+width:100%;
+border-collapse: collapse;
+border: 2px solid black;
+background-color: whitesmoke;
+
+}
+.tabledesc
+{
+border: 2px solid black;
+  border-collapse: collapse;
+  height: 490px;
+  width: 33%;
+}
+.tablehead
+{
+  border: 2px solid black;
+border-collapse: collapse;
+height: 200px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 19px;
+text-align:center;
+}
+.tablehead button
+{
+font-size: 19px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+background-color: darkkhaki;
+padding: 4px;
+text-align: center;
+}
+ #menModal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 40px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+    }
+     #menModal2 {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 40px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+    }
+.menModalPopupContent {
+   position: relative;
+  background-color: lightgoldenrodyellow;
+  margin: auto;
+  width: 88%;
+  height: 80%;
+padding: 35px;
+font-size: 22px;
+bottom: 16px;
+font-family: 'Times New Roman', Times, serif;
+  border: 3px solid black;
+    overflow: scroll;
+}
+.menModalPopupContent li
+{
+color: darkcyan;
+}
+.menModalPopupContent button{
+width: 250px;
+background-color: yellowgreen;
+border: 2px solid black;
+color: black;
+font-weight: bold;
+height: 70px;
+font-size: 19px;
+text-align:center;
+border-radius: 10px;
+}
+.menModalPopupContent button:hover
+{
+font-size: 20px;
+text-align:center;
+background-color: grey;
+}
+.mentable{
+width: 100%;
+  }
+  .ab
+  {
+    width: 50%;
+  height: 700px;
+  }
+#cross1
+{
+  color: black;
+  float: left;
+  font-size: 28px;
+    position: fixed;
+  font-weight: bold;
+}
+#cross1:hover,
+#cross1:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+#cross2
+{
+  color: black;
+  float: left;
+  font-size: 28px;
+    position: fixed;
+  font-weight: bold;
+}
+#cross2:hover,
+#cross2:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menModalPopupContent h3
+{
+color: green;
+}
+.womenModalPopupContent h3
+{
+color: green;
+}
+ #womenModal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 40px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+    }
+  #womenModal2 {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 40px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+    }
+.womenModalPopupContent {
+   position: relative;
+  background-color: lightgoldenrodyellow;
+  margin: auto;
+  width: 88%;
+  height: 80%;
+padding: 35px;
+font-size: 22px;
+bottom: 16px;
+font-family: 'Times New Roman', Times, serif;
+  border: 3px solid black;
+    overflow: scroll;
+}
+.womenModalPopupContent li
+{
+color: darkcyan;
+}
+.womenModalPopupContent button{
+width: 250px;
+background-color: yellowgreen;
+border: 2px solid black;
+color: black;
+font-weight: bold;
+height: 70px;
+font-size: 19px;
+text-align:center;
+border-radius: 10px;
+}
+.womenModalPopupContent button:hover
+{
+font-size: 20px;
+text-align:center;
+background-color: grey;
+}
+.womentable{
+width: 100%;
+  }
+  .cont
+  {
+  padding-left: 20px;
+   padding-right: 20px;
+     padding-top: 20px;
+       padding-bottom: 20px;
+    height: 400px;
+margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  background-color: burlywood;
+  border-radius: 10px;
+  }
+.centered
+ { 
+   text-align: center;
+   background-color: rgb(47, 79, 79);
+   width: 100%;
+   height: 40px;
+   }
+ .cen { 
+   color: white;
+   text-decoration: none;
+   }
+   .cont button
+   {
+  background-color: khaki;
+  color: black;
+  border: 2px solid black;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  text-align:center;
+   }
+   .cont button:hover
+   {  
+ background-color: grey;
+   }
+   .about1 h1
+   {
+   color: darkcyan;
+   }
+   .about1
+   {
+background-color: lightcyan;
+border: 1px solid black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .about1 img
+   {
+    border: 7px solid lightgreen;
+   }
+  

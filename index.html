@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+<div class="nb">
+  <div class="nb-right">
+    <button id="trigger" class="btn">Login</button>
+    <button id="signup" class="btn">Signup</button>
+<a href="help.html">Help</a>
+</div>
+</div>
+<div class="modal">
+    <div class="modal-popup-content">
+      <h1 style="text-align:center;">Enter your details to login</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Login"></td>
+ <td><button class="close" onclick="cancel();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+    <div class="modal2">
+    <div class="modal-popup-content2">
+      <h1 style="text-align:center;">Enter your details to Signup</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+  <th style="text-align:left;" style="text-align:left;">Name</th>
+  </tr>
+  <tr>
+  <td><input type="text" required></td>
+  </tr>
+  <tr>
+    <th style="text-align:left;">Mobile number</th>
+   </tr>
+   <tr> 
+  <td><input type="number" value="9988776655" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Signup"></td>
+ <td><button class="close2" onclick="cancel2();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+<div class="nb2">
+<img src="logo.jpg" id="logojpg">
+<h6></h6>
+<form class="search">
+      <input type="text" placeholder="search....." name="search">
+   <button onclick="search()">Search</button>
+   </form>
+   <h1 class="colors">Wristo shop</h1>
+<h1 class="colors">A complete watch store</h1>
+</div>
+<div class="nb3">
+<a href="index.html" class="active">Home</a>
+<a href="men.html">Men's watch</a>
+<a href="women.html">Women's watch</a>
+<a href="kids.html">Kids watch</a>
+<a href="contactus.html">Contact Us</a>
+<a href="aboutus.html">About Us</a>
+</div>
+<div class="slideshow">
+
+<div class="slides">
+  <div class="numbertext">1 / 3</div>
+  <img src="womenadver.jpg" style="width:100%">
+  <div class="text">Versace watches collection is a legacy timepiece. ... Gold watches with diamond details and coloured or mother of pearl dials with an elegant design and Swiss automatic and chronograph movement.</div>
+</div>
+
+<div class="slides">
+  <div class="numbertext">2 / 3</div>
+  <img src="w2.jpg" style="width:100%">
+  <div class="text">Fashionable and young, cool and sleek, beautiful and high quality functionality. You can select amongst different shapes and sizes of the dial complemented with long lasting, leather, metal straps to adorn your wrist.</div>
+</div>
+
+<div class="slides">
+  <div class="numbertext">3 / 3</div>
+  <img src="w1.jpg" style="width:100%">
+  <div class="text">With its stylish belts, stunning dials and range of shades, have always been known for their style and appealing looks.</div>
+</div>
+
+</div>
+
+<table class="showable-banner">
+<tr>
+<td class="banner1"><img src="fossil1.jpg" style="width:100%;"></td>
+<td class="banner2"><img src="fw2.jpg" style="width:100%;"></td>
+<td class="banner3"><img src="f3.jpg" style="width:100%;"></td>
+</tr>
+<tr>
+  <td style="text-align:center;"><button onclick="men();" class="shopbutton">Shop for men</button></td>
+   <td style="text-align:center;"><button onclick="women();" class="shopbutton">Shop for women</button></td>
+   <td style="text-align:center;"><button onclick="kids();" class="shopbutton">Shop for kids</button></td>
+  </tr>
+  </table>
+    <div class="centered">
+  <a href="#" class="cen">Copyright - 2020 | </a>
+  <a href="#" class="cen">Geetansh Website | </a>
+  <a href="#" class="cen">Contact details: abc@gmail.com</a>
+</div>
+  <script>
+var modal = document.querySelector(".modal");
+var modal2 = document.querySelector(".modal2");
+    var trigger = document.querySelector("#trigger");
+       var trigger2 = document.querySelector("#signup");
+    var closeButton = document.querySelector(".close");
+  var closeButton2 = document.querySelector(".close2");
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+     function toggleModal2() {
+        modal2.classList.toggle("show-modal");
+    }
+    trigger.addEventListener("click", toggleModal);
+      closeButton.addEventListener("click", toggleModal);
+        trigger2.addEventListener("click", toggleModal2);
+      closeButton2.addEventListener("click", toggleModal2);
+      function cancel(){
+location.href="index.html";
+      }
+      function cancel2(){
+location.href="index.html";
+      }
+      function search()
+      {
+      location.href="index.html";
+      }
+var index = 0;
+show();
+
+function show() {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+ index++;
+  if (index > slides.length) {index = 1}    
+  slides[index-1].style.display = "block";  
+  setTimeout(show, 4000);
+}
+
+ function men(){
+location.href="men.html";
+      }
+      function women(){
+location.href="women.html";
+      }
+       function kids(){
+location.href="kids.html";
+      }
+    </script>
+  </body>
+</html>

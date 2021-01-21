@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+<div class="nb">
+  <div class="nb-right">
+    <button id="trigger" class="btn">Login</button>
+    <button id="signup" class="btn">Signup</button>
+<a href="help.html">Help</a>
+</div>
+</div>
+<div class="modal">
+    <div class="modal-popup-content">
+      <h1 style="text-align:center;">Enter your details to login</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Login"></td>
+ <td><button class="close" onclick="cancel();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+    <div class="modal2">
+    <div class="modal-popup-content2">
+      <h1 style="text-align:center;">Enter your details to Signup</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+  <th style="text-align:left;" style="text-align:left;">Name</th>
+  </tr>
+  <tr>
+  <td><input type="text" required></td>
+  </tr>
+  <tr>
+    <th style="text-align:left;">Mobile number</th>
+   </tr>
+   <tr> 
+  <td><input type="number" value="9988776655" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Signup"></td>
+ <td><button class="close2" onclick="cancel();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+<div class="nb2">
+<img src="logo.jpg" id="logojpg">
+<h6></h6>
+<form class="search">
+      <input type="text" placeholder="search....." name="search">
+   <button onclick="search()">Search</button>
+   </form>
+   <h1 class="colors">Wristo shop</h1>
+<h1 class="colors">A complete watch store</h1>
+</div>
+<div class="nb3">
+<a href="index.html" active>Home</a>
+<a href="men.html">Men's watch</a>
+<a href="women.html" class="active">Women's watch</a>
+<a href="kids.html">Kids watch</a>
+<a href="contactus.html">Contact Us</a>
+<a href="aboutus.html">About Us</a>
+</div>
+<div class="adver">
+<img src="womenadver.jpg" style="width:100%;height:100%;">
+  <h2 class="texty">A watch is a portable timepiece intended to be carried or worn by a person. ... In the 1960s the electronic watch was invented, which was powered by a battery and kept time with a vibrating quartz crystal. By the 1980s the quartz watch had taken over most of the market from the mechanical watch.</h2>
+</div>
+<table class="menwatches">
+  <tr>
+    <td class="tabledesc"><img src="womenw1.jpg" id="womenmodal1" style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="fw2.jpg" id="womenmodal2" style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="womenw3.jpg" style="width:100%;height:500px;"></td>
+    </tr>
+    <tr>
+      <th class="tablehead">Carlyle Multifunction smart women watch<br>Rs. 4000<br><button class="addCart1">Add to Cart</button></th>
+      <th class="tablehead">Jesse rose tone women watch<br>Rs. 3400<br><button class="addCart2">Add to Cart</button></th>
+      <th class="tablehead">Presca Hybrid smartwatch<br>Rs. 2800<br><button onclick="cart.html">Add to Cart</button></th>
+      </tr>
+       <tr>
+    <td class="tabledesc"><img src="womenw4.jpg" style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="womenw5.jpeg" style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="womenw6.jpg" style="width:100%;height:500px;"></td>
+    </tr>
+    <tr>
+      <th class="tablehead">Casco Multifunction women watch<br>Rs. 2500<br><button onclick="cart.html">Add to Cart</button></th>
+      <th class="tablehead">Versace three dial women watch<br>Rs. 1000<br><button onclick="cart.hml">Add to Cart</button></th>
+      <th class="tablehead">Gucci Mini leather women watch<br>Rs. 3500<br><button onclick="cart.html">Add to Cart</button></th>
+      </tr>
+      </table>
+     <div id="womenModal">
+    <div class="womenModalPopupContent">
+      <span id="cross1">&times;</span>
+      <table class="womentable">
+        <tr>
+  <td class="ab"><img src="womena1.jpg" style="width:120%;height:100%;"></td>
+<td class="ab"><img src="womena2.jpg" style="width:120%;height:100%;"></td>
+</tr>
+<tr>
+      <td><h1>Carlyle Multifunction smart women watch</h1>
+      <h2>Rs. 4000.00</h2>
+      <h5>EMI from Rs. 1000. No Cost EMI available.</h5>
+      <h3>In stock.</h3>
+      <button class="buy">Buy Now/Add to Cart</button>
+      </td>
+      <td>
+      <h2>Product Description :</h2>
+      <ul>
+          <li>Notifications: Alarm Clock, App Alerts, Calendar Alerts, Email, Multiple Time Zones, Social Media, Text</li>
+<li>Functions: Activity Tracker, Challenge Friends to a Workout, Control Your Music, Customizable Buttons, Heart Rate Tracking, Interchangeable Watch Band, Notifications, Personalize Your Dial, Visualized Workout Routes</li>
+<li>Connectivity: Bluetooth Smart Enabled / 5.0 Low Energy</li>
+<li>Compatibility: Android™ 5.0+, iOS 10.0+</li>
+<li>To avoid damage to your watch, only use with included charger. Do not use a USB hub, USB splitter, USB y-cable, battery pack or other peripheral device to charge.</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+  <div id="womenModal2">
+    <div class="womenModalPopupContent">
+      <span id="cross2">&times;</span>
+      <table class="womentable">
+        <tr>
+  <td class="ab"><img src="womena3.jpg" style="width:120%;height:100%;"></td>
+<td class="ab"><img src="womena4.jpg" style="width:120%;height:100%;"></td>
+</tr>
+<tr>
+      <td><h1>Jesse rose tone women watch</h1>
+      <h2>Rs. 3400.00</h2>
+      <h5>EMI from Rs. 1000. No Cost EMI available.</h5>
+      <h3>In stock.</h3>
+      <button class="buy2">Buy Now/Add to Cart</button>
+      </td>
+      <td>
+      <h2>Product Description :</h2>
+      <ul>
+          <li>Notifications: Alarm Clock, App Alerts, Calendar Alerts, Email, Multiple Time Zones, Social Media, Text</li>
+<li>Functions: Activity Tracker, Challenge Friends to a Workout, Control Your Music, Customizable Buttons, Heart Rate Tracking, Interchangeable Watch Band, Notifications, Personalize Your Dial, Visualized Workout Routes</li>
+<li>Connectivity: Bluetooth Smart Enabled / 5.0 Low Energy</li>
+<li>Compatibility: Android™ 5.0+, iOS 10.0+</li>
+<li>To avoid damage to your watch, only use with included charger. Do not use a USB hub, USB splitter, USB y-cable, battery pack or other peripheral device to charge.</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ <div class="centered">
+  <a href="#" class="cen">Copyright - 2020 | </a>
+  <a href="#" class="cen">Geetansh Website | </a>
+  <a href="#" class="cen">Contact details: abc@gmail.com</a>
+</div>
+  <script>
+var modal = document.querySelector(".modal");
+var modal2 = document.querySelector(".modal2");
+    var trigger = document.querySelector("#trigger");
+       var trigger2 = document.querySelector("#signup");
+    var closeButton = document.querySelector(".close");
+  var closeButton2 = document.querySelector(".close2");
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+     function toggleModal2() {
+        modal2.classList.toggle("show-modal");
+    }
+    trigger.addEventListener("click", toggleModal);
+      closeButton.addEventListener("click", toggleModal);
+        trigger2.addEventListener("click", toggleModal2);
+      closeButton2.addEventListener("click", toggleModal2);
+      function cancel(){
+location.href="index.html";
+      }
+      function cancel2(){
+location.href="index.html";
+      }
+      function search()
+      {
+      location.href="index.html";
+      }
+var women = document.getElementById("womenModal");
+var btn = document.getElementById("womenmodal1");
+var cross1=document.getElementById("cross1");
+btn.onclick = function() {
+  women.style.display = "block";
+}
+cross1.onclick=function() {
+  women.style.display="none";
+}
+var count=0;
+ var buy = document.querySelector(".buy");
+ buy.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart.Go to cart to buy');
+ }
+var buy2 = document.querySelector(".buy2");
+ buy2.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart.Go to cart to buy');
+ }
+var addCart1 = document.querySelector(".addCart1");
+ addCart1.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart.Go to cart to buy');
+ }
+var addCart2 = document.querySelector(".addCart2");
+ addCart2.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart.Go to cart to buy');
+ }
+var women2 = document.getElementById("womenModal2");
+var btn2 = document.getElementById("womenmodal2");
+var cross2=document.getElementById("cross2");
+btn2.onclick = function() {
+  women2.style.display = "block";
+}
+cross2.onclick=function() {
+  women2.style.display="none";
+}
+
+
+   
+
+
+    </script>
+  </body>
+</html>

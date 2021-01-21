@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+<div class="nb">
+  <div class="nb-right">
+    <button id="trigger" class="btn">Login</button>
+    <button id="signup" class="btn">Signup</button>
+<a href="help.html">Help</a>
+</div>
+</div>
+<div class="modal">
+    <div class="modal-popup-content">
+      <h1 style="text-align:center;">Enter your details to login</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Login"></td>
+ <td><button class="close" onclick="cancel();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+    <div class="modal2">
+    <div class="modal-popup-content2">
+      <h1 style="text-align:center;">Enter your details to Signup</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+  <th style="text-align:left;" style="text-align:left;">Name</th>
+  </tr>
+  <tr>
+  <td><input type="text" required></td>
+  </tr>
+  <tr>
+    <th style="text-align:left;">Mobile number</th>
+   </tr>
+   <tr> 
+  <td><input type="number" value="9988776655" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Signup"></td>
+ <td><button class="close2" onclick="cancel();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+<div class="nb2">
+<img src="logo.jpg" id="logojpg">
+<h6></h6>
+<form class="search">
+      <input type="text" placeholder="search....." name="search">
+   <button onclick="search()">Search</button>
+   </form>
+   <h1 class="colors">Wristo shop</h1>
+<h1 class="colors">A complete watch store</h1>
+</div>
+<div class="nb3">
+<a href="index.html" active>Home</a>
+<a href="men.html" class="active">Men's watch</a>
+<a href="women.html">Women's watch</a>
+<a href="kids.html">Kids watch</a>
+<a href="contactus.html">Contact Us</a>
+<a href="aboutus.html">About Us</a>
+</div>
+<div class="adver">
+<img src="menadver.jpg" style="width:100%;height:100%;">
+  <h2 class="texty">A watch is a portable timepiece intended to be carried or worn by a person. ... In the 1960s the electronic watch was invented, which was powered by a battery and kept time with a vibrating quartz crystal. By the 1980s the quartz watch had taken over most of the market from the mechanical watch.</h2>
+</div>
+<table class="menwatches">
+  <tr>
+    <td class="tabledesc"><img src="menw1.jpg" id="menmodal1"style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="fossil1.jpg" id="menmodal2" style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="menw2.jpg" style="width:100%;height:500px;"></td>
+    </tr>
+    <tr>
+      <th class="tablehead">Gen 5 HR Smoke Carlyle<br>Rs. 3000<br><button class="addCart1">Add to Cart</button></th>
+      <th class="tablehead">Mimimalist slim<br>Rs. 2000<br><button class="addCart2">Add to Cart</button></th>
+      <th class="tablehead">Hybrid smartwatch<br>Rs. 3500<br><button class="addCart">Add to Cart</button></th>
+      </tr>
+       <tr>
+    <td class="tabledesc"><img src="menw4.jpg" style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="menw3.jpg" style="width:100%;height:500px;"></td>
+    <td class="tabledesc"><img src="menw6.jpg" style="width:100%;height:500px;"></td>
+    </tr>
+    <tr>
+      <th class="tablehead">Eddy Hager Neutra<br>Rs. 1500<br><button class="addCart">Add to Cart</button></th>
+      <th class="tablehead">Fossill FB-01<br>Rs. 2800<br><button class="addCart">Add to Cart</button></th>
+      <th class="tablehead">Guciko Buckner Stainless steel<br>Rs. 2500<br><button class="addCart">Add to Cart</button></th>
+      </tr>
+      </table>
+    <div id="menModal">
+    <div class="menModalPopupContent">
+      <span id="cross1">&times;</span>
+      <table class="mentable">
+        <tr>
+  <td class="ab"><img src="mena2.jpg" style="width:120%;height:100%;"></td>
+<td class="ab"><img src="mena1.jpg" style="width:120%;height:100%;"></td>
+</tr>
+<tr>
+      <td><h1>Gen 5 HR Smoke Carlyle</h1>
+      <h2>Rs. 3000.00</h2>
+      <h5>EMI from Rs. 1000. No Cost EMI available.</h5>
+      <h3>In stock.</h3>
+      <button class="buy">Buy Now/Add to Cart</button>
+      </td>
+      <td>
+      <h2>Product Description :</h2>
+      <ul>
+          <li>Smartwatches powered with wear OS by Google work with iPhone and Android phones, Compatibility: Android OS 6.0+ (EXCLUDING GO EDITION), iOS 10.0+
+<li>Extend your battery life for multiple days with new, smart Battery modes; magnetic usb rapid Charger included; charge UP to 80 percent in under an hour</li>
+<li>Heart Rate & Activity Tracking using Google Fit; Built-in GPS for distance tracking; Swimproof design 3ATM; responses from Google Assistant - it’s your own personal Google, always ready to help</li>
+<li>This is one smart watch - now with a speaker for Audible alerts and taking phone calls, Google assistant responses and more; Receive smartphone notifications and alerts; Microphone; Download third party apps with 8Gb of storage and 1G ram memory capacity</li>
+<li>Case size: 44mm; Band size: 22mm; interchangeable with all Fossil 22mm bands; screen size: 1. 28 inch
+<li>Your Fossil Smartwatch can tell your smartphone to play an audible alert so you can find it fast ; You won't have to take your smartwatch off for long to charge it up—get up to 80% in one hour with rapid charging</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+ <div id="menModal2">
+    <div class="menModalPopupContent">
+      <span id="cross2">&times;</span>
+      <table class="mentable">
+        <tr>
+  <td class="ab"><img src="mena3.jpg" style="width:120%;height:100%;"></td>
+<td class="ab"><img src="mena4.jpg" style="width:120%;height:100%;"></td>
+</tr>
+<tr>
+      <td><h1>Mimimalist slim</h1>
+      <h2>Rs. 2000.00</h2>
+         <h5>EMI from Rs. 1000. No Cost EMI available.</h5>
+      <h3>In stock.</h3>
+      <button class="buy2">Buy Now/Add to Cart</button>
+      </td>
+      <td>
+      <h2>Product Description :</h2>
+      <ul>
+          <li>Smartwatches powered with wear OS by Google work with iPhone and Android phones, Compatibility: Android OS 6.0+ (EXCLUDING GO EDITION), iOS 10.0+
+<li>Extend your battery life for multiple days with new, smart Battery modes; magnetic usb rapid Charger included; charge UP to 80 percent in under an hour</li>
+<li>Heart Rate & Activity Tracking using Google Fit; Built-in GPS for distance tracking; Swimproof design 3ATM; responses from Google Assistant - it’s your own personal Google, always ready to help</li>
+<li>This is one smart watch - now with a speaker for Audible alerts and taking phone calls, Google assistant responses and more; Receive smartphone notifications and alerts; Microphone; Download third party apps with 8Gb of storage and 1G ram memory capacity</li>
+<li>Case size: 44mm; Band size: 22mm; interchangeable with all Fossil 22mm bands; screen size: 1. 28 inch
+<li>Your Fossil Smartwatch can tell your smartphone to play an audible alert so you can find it fast ; You won't have to take your smartwatch off for long to charge it up—get up to 80% in one hour with rapid charging</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ <div class="centered">
+  <a href="#" class="cen">Copyright - 2020 | </a>
+  <a href="#" class="cen">Geetansh Website | </a>
+  <a href="#" class="cen">Contact details: abc@gmail.com</a>
+</div>
+ <script>
+var modal = document.querySelector(".modal");
+var modal2 = document.querySelector(".modal2");
+    var trigger = document.querySelector("#trigger");
+       var trigger2 = document.querySelector("#signup");
+    var closeButton = document.querySelector(".close");
+  var closeButton2 = document.querySelector(".close2");
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+     function toggleModal2() {
+        modal2.classList.toggle("show-modal");
+    }
+    trigger.addEventListener("click", toggleModal);
+      closeButton.addEventListener("click", toggleModal);
+        trigger2.addEventListener("click", toggleModal2);
+      closeButton2.addEventListener("click", toggleModal2);
+      function cancel(){
+location.href="index.html";
+      }
+      function cancel2(){
+location.href="index.html";
+      }
+      function search()
+      {
+      location.href="index.html";
+      }
+var men = document.getElementById("menModal");
+var btn = document.getElementById("menmodal1");
+var cross1=document.getElementById("cross1");
+btn.onclick = function() {
+  men.style.display = "block";
+}
+cross1.onclick=function() {
+  men.style.display="none";
+}
+var count=0;
+ var buy = document.querySelector(".buy");
+ buy.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart. Go to cart to buy');
+ }
+var buy2 = document.querySelector(".buy2");
+ buy2.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart. Go to cart to buy');
+ }
+var addCart1 = document.querySelector(".addCart1");
+ addCart1.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart. Go to cart to buy');
+ }
+var addCart2 = document.querySelector(".addCart2");
+ addCart2.onclick = function() {
+   count++;
+  alert(count+' item(s) is added to cart. Go to cart to buy');
+ }
+var men2 = document.getElementById("menModal2");
+var btn2 = document.getElementById("menmodal2");
+var cross2=document.getElementById("cross2");
+btn2.onclick = function() {
+  men2.style.display = "block";
+}
+cross2.onclick=function() {
+  men2.style.display="none";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

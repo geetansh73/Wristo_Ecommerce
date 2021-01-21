@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+<div class="nb">
+  <div class="nb-right">
+    <button id="trigger" class="btn">Login</button>
+    <button id="signup" class="btn">Signup</button>
+<a href="help.html">Help</a>
+</div>
+</div>
+<div class="modal">
+    <div class="modal-popup-content">
+      <h1 style="text-align:center;">Enter your details to login</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Login"></td>
+ <td><button class="close" onclick="cancel();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+    <div class="modal2">
+    <div class="modal-popup-content2">
+      <h1 style="text-align:center;">Enter your details to Signup</h1>
+ <form action="index.html">
+<table class="table" style="width:100%;height:100%;">
+<tr>
+  <th style="text-align:left;" style="text-align:left;">Name</th>
+  </tr>
+  <tr>
+  <td><input type="text" required></td>
+  </tr>
+  <tr>
+    <th style="text-align:left;">Mobile number</th>
+   </tr>
+   <tr> 
+  <td><input type="number" value="9988776655" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Email</th>
+</tr>
+<tr>
+<td><input type="Email" required></td>
+</tr>
+<tr>
+<th style="text-align:left;">Password</th>
+</tr>
+<tr>
+<td><input type="password" required></td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" class="account" value="Signup"></td>
+ <td><button class="close2" onclick="cancel();">Cancel</button></td>
+</tr>
+</table>
+</form>
+<h1></h1>
+</div>
+    </div>
+<div class="nb2">
+<img src="logo.jpg" id="logojpg">
+<h6></h6>
+<form class="search">
+      <input type="text" placeholder="search....." name="search">
+   <button onclick="search()">Search</button>
+   </form>
+   <h1 class="colors">Wristo shop</h1>
+<h1 class="colors">A complete watch store</h1>
+</div>
+<div class="nb3">
+<a href="index.html" active>Home</a>
+<a href="men.html">Men's watch</a>
+<a href="women.html">Women's watch</a>
+<a href="kids.html">Kids watch</a>
+<a href="contactus.html" class="active">Contact Us</a>
+<a href="aboutus.html">About Us</a>
+</div>
+<h1 style="text-align:center;">Contact Us</h1>
+<table class="cont">
+  <form>
+  <tr>
+ <th style="text-align:left;">First Name</th>
+ <td><input type="name" placeholder="Rahul" style="width:358px;" required></td>
+ </tr>
+  <tr>
+ <th style="text-align:left;">Last Name</th>
+ <td><input type="name" placeholder="Kumar" style="width:358px;" required></td>
+ </tr>
+ <tr>
+   <th style="text-align:left;">E-mail</th> 
+ <td><input type="email" placeholder="abc@gmail.com" style="width:358px;" required></td>
+</tr>
+ <tr>
+     <th style="text-align:left;">Mobile number</th>
+ <td><input type="tell" placeholder="9977883344" pattern="^\d{10}$" style="width:358px;" required ></td>
+</tr>
+<tr>
+  <th style="text-align:left;">Enter your Query (min. 5 words)</th>
+   <td><textarea rows="7" cols="49" maxlength="500" minlength="5" required></textarea></td>
+   </tr>
+   <tr>
+     <td>
+     <button type="submit">Submit your query</button>
+   </td>
+   </tr>
+   </form>
+   </table>
+   <h1 style="text-align:center;">Contact details</h1>
+     <table class="cont">
+       <tr>
+         <td>
+           <h1>Registered office: </h3>
+    <h3> Wristo Women Company Limited</h3>
+<h3>CIN: L74999TZ1984PLC001456</h3>
+<h3>Industrial Complex, Gurugram (Haryana) - 122003</h3>
+<h3>Telephone : +91-(0)4344-662399</h3>
+ <h1>Corporate Office: </h1>
+ <h3> Wristo Men Company Limited</h3>
+ <h3>CIN: L2349TZ1984PLC001456</h3>
+ <h3>Electronic City, Bangalore-560100, Karnataka, India </h3>
+<h3>Telephone : +91-(0)4344-223037</h3>
+<h3>Email : corpcomm@wristo.co.in</h3>
+</td>
+</tr>
+</table>
+<br>
+</div>
+ <div class="centered">
+  <a href="#" class="cen">Copyright - 2020 | </a>
+  <a href="#" class="cen">Geetansh Website | </a>
+  <a href="#" class="cen">Contact details: abc@gmail.com</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+var modal = document.querySelector(".modal");
+var modal2 = document.querySelector(".modal2");
+    var trigger = document.querySelector("#trigger");
+       var trigger2 = document.querySelector("#signup");
+    var closeButton = document.querySelector(".close");
+  var closeButton2 = document.querySelector(".close2");
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+     function toggleModal2() {
+        modal2.classList.toggle("show-modal");
+    }
+    trigger.addEventListener("click", toggleModal);
+      closeButton.addEventListener("click", toggleModal);
+        trigger2.addEventListener("click", toggleModal2);
+      closeButton2.addEventListener("click", toggleModal2);
+      function cancel(){
+location.href="index.html";
+      }
+      function cancel2(){
+location.href="index.html";
+      }
+      function search()
+      {
+      location.href="index.html";
+      }
+    </script>
+    </body>
+    </html>
